@@ -17,7 +17,7 @@ export default function Home() {
         <h1 className={styles.title}>
           Quentin's Body <a href='https://nextjs.org'>Dashboard</a>
         </h1>
-        <a href="https://www.fitbit.com/oauth2/authorize?response_type=token&client_id=23BKWJ&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fdashboard&scope=activity%20heartrate%20location%20nutrition%20profile%20settings%20sleep%20social%20weight&expires_in=604800">
+        <a href="https://www.fitbit.com/oauth2/authorize?response_type=token&client_id=23BKWJ&redirect_uri=https%3A%2F%2Fquartzapi.herokuapp.com%2Fdashboard&scope=activity%20heartrate%20location%20nutrition%20profile%20settings%20sleep%20social%20weight&expires_in=604800">
 Login to Fitbit
 </a>
       </main>
